@@ -4,7 +4,7 @@ const ThemeSwitcher=()=>{
     const[isDarkMode,setIsDarkMode]=useState(false);
     const themeStyle={
         backgroundColor:isDarkMode?"#000":"#fff",
-        Color:isDarkMode?"#fff":"#000",
+        color:isDarkMode?"#fff":"#000",
     };
     return(
         <div style={themeStyle}>
