@@ -6,3 +6,4 @@ const TweetInput=()=>{
 
     <input type="button" disabled={text.length>maxLength?'true':'false'}></input>
 }
+export default TweetInput;

@@ -13,3 +13,4 @@ const ThemeSwitcher=()=>{
         </div>
     )
 }
+export default ThemeSwitcher;
